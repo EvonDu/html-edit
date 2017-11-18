@@ -1,0 +1,15 @@
+{
+  "Image": {
+    "name": "图片",
+    "params": [
+      {"label": "地址", "name": "src", "type": "text"}
+    ]
+  },
+  "Text": {
+    "name": "文字",
+    "params": [
+      {"label": "标题", "name": "title", "type": "text"},
+      {"label": "内容", "name": "text", "type": "text"}
+    ]
+  }
+}
