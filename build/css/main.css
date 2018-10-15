@@ -1,16 +1,4 @@
-body{
-    padding: 12px;
-}
-
-#page-edit{
-    width:100%;
-    min-height:960px;
-    background-color: #cccccc;
-    padding: 12px;
-    overflow: scroll;
-}
-
-#page-body{
+.page-body{
     background: white;
     position: relative;
 }
@@ -25,11 +13,15 @@ body{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding: 6px;
-    position: absolute;
 
+    position: absolute;
     color: white;
     text-shadow: 2px 3px 2px #999999;
+}
+
+.page-element span{
+    margin: 0 6px;
+    cursor: pointer;
 }
 
 .page-element .content{

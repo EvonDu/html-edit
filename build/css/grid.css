@@ -1,5 +1,5 @@
 /*网格*/
-#page-body{
+.page-body{
     background:#58a;
     background-image:
             linear-gradient(white 1px,transparent 0),
@@ -13,7 +13,7 @@
 }
 
 /*点阵*/
-#page-body{
+.page-body{
     background:white;
     background-image:
             linear-gradient(white 14px,transparent 0),
